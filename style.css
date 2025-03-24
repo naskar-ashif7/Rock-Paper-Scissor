@@ -38,7 +38,7 @@ body {
 .boxes {
     height: 30vmin;
     width: 30vmin;
-    border: 1px solid black;
+    border: 1px solid rgb(221, 28, 28);
     margin: 15px;
     border-radius: 50%;
     position: relative;
@@ -121,4 +121,36 @@ body {
     margin-top: 35px;
     background-color: rgb(152, 17, 243);
     color: rgb(183, 255, 247);
+}
+
+
+@media (min-width: 300px ) {
+
+    .choices{
+        height: 45%;
+
+    }
+    .boxes {
+        height: 25vmin;
+        width: 25vmin;
+        border: 1px solid rgb(211, 31, 31);
+        margin: 10px;
+        border-radius: 70%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .scoreBox{
+        height: 8vmin;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 85px;
+    }
+
+    .msg-box{
+        margin-top: 80px;
+        left: 50%;
+        right: -30%;
+    }
 }
